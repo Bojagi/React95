@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.10.4",
-    "@bojagi/cli": "^0.12.3",
+    "@bojagi/cli": "^0.12.4",
     "@react95/clippy": "^0.1.1",
     "@storybook/addon-essentials": "^6.0.28",
     "@storybook/addon-storysource": "^6.0.28",
