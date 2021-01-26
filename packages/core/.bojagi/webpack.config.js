@@ -41,13 +41,18 @@ module.exports = {
          ]
       },
       {
-        test: /\.(svg|ico|jpg|jpeg|png|apng|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/,
+        test: /\.(svg|ico|jpg|jpeg|png|apng|gif|webp|cur|ani|pdf)(\?.*)?$/,
         loader: 'url-loader',
         options: { limit: 10000, name: 'static/media/[name].[hash:8].[ext]', esModule: false }
       },
       {
+        test: /\.(eot|otf|ttf|woff|woff2)(\?.*)?$/,
+        loader: 'file-loader',
+        options: { limit: 10000, name: 'static/media/[name].[hash:8].[ext]', esModule: false }
+      },
+      {
         test: /\.(mp4|webm|wav|mp3|m4a|aac|oga)(\?.*)?$/,
-        loader: 'url-loader',
+        loader: 'file-loader',
         query: { limit: 10000, name: 'static/media/[name].[hash:8].[ext]' }
       }
     ],
