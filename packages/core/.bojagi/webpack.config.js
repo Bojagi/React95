@@ -42,8 +42,8 @@ module.exports = {
       },
       {
         test: /\.(svg|ico|jpg|jpeg|png|apng|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/,
-        loader: 'file-loader',
-        options: { name: 'static/media/[name].[hash:8].[ext]', esModule: false }
+        loader: 'url-loader',
+        options: { limit: 10000, name: 'static/media/[name].[hash:8].[ext]', esModule: false }
       },
       {
         test: /\.(mp4|webm|wav|mp3|m4a|aac|oga)(\?.*)?$/,
