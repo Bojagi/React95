@@ -1046,10 +1046,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bojagi/cli@^0.12.5":
-  version "0.12.5"
-  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.12.5.tgz#3e2b7426684c1dadedb19382ed9bafa7ac635969"
-  integrity sha512-OGJfAbUUgxR92wAHRK5di62/yeLqGVUpYXVYLG5BeYvZp6qVCaJHOi1v/U5vZ+jDo0gaXN1HyRCoRaKH182R+w==
+"@bojagi/cli@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.13.0.tgz#96ad0a36e92da00c1257ac8d40a6ee635336eaeb"
+  integrity sha512-UGlOUQtUEdRZaFprTIB+SqeXc0icuDf0d5wPCBosNcLoDjFoE56vgOXgtzZ0rsFEyj9wH8gA+AfnHPY1/tF1+A==
   dependencies:
     "@bojagi/types" "^0.9.0"
     adm-zip "^0.4.13"
@@ -1075,6 +1075,7 @@
     open "^7.3.0"
     rimraf "^2.6.3"
     simple-git "^2.4.0"
+    webpack-dev-server "^3.11.2"
     webpack-merge "^5.1.4"
 
 "@bojagi/types@^0.9.0":

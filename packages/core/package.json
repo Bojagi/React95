@@ -10,7 +10,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@bojagi/cli": "^0.12.5",
+    "@bojagi/cli": "^0.13.0",
     "@react95/clippy": "^1.0.3",
     "@react95/icons": "^1.0.3",
     "@styled-system/prop-types": "^5.1.5",
